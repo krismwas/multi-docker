@@ -3,19 +3,19 @@ services:
   - docker
 
 before_install:
-  - docker build -t krismwangi/react-test -f ./client/Dockerfile.dev ./client
+  - docker build -t chrismwas/react-test -f ./client/Dockerfile.dev ./client
 
 script:
-  - docker run krismwangi/react-test npm run test -- --coverage
+  - docker run chrismwas/react-test npm run test -- --coverage
 
 after_success:
-  - docker build -t krismwangi/multi-client ./client
-  - docker build -t krismwangi/multi-nginx ./nginx
-  - docker build -t krismwangi/multi-server ./server
-  - docker build -t krismwangi/multi-worker ./worker
-  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
+  - docker build -t chrismwas/multi-client ./client
+  - docker build -t chrismwas/multi-nginx ./nginx
+  - docker build -t chrismwas/multi-server ./server
+  - docker build -t chrismwas/multi-worker ./worker
+  - echo /"$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
   #  Take those images and push them to docker hub
-  - docker push krismwas/multi-client
-  - docker push krismwas/multi-nginx
-  - docker push krismwas/multi-server
-  - docker push krismwas/multi-worker
+  - docker push chrismwas/multi-client
+  - docker push chrismwas/multi-nginx
+  - docker push chrismwas/multi-server
+  - docker push chrismwas/multi-worker
