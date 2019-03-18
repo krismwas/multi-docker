@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aab54418-741b-4066-b589-37bb12118325" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerrun.aws.json" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerrun.aws.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,14 +31,14 @@
           <entry key="conf" value="5" />
           <entry key="dev" value="14" />
           <entry key="js" value="4" />
-          <entry key="json" value="5" />
+          <entry key="json" value="6" />
           <entry key="yml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Dockerfile" value="10" />
-          <entry key="JSON" value="5" />
+          <entry key="JSON" value="6" />
           <entry key="JavaScript" value="4" />
           <entry key="PLAIN_TEXT" value="20" />
           <entry key="YAML" value="7" />
@@ -52,14 +51,14 @@
           <entry key="conf" value="342" />
           <entry key="dev" value="78" />
           <entry key="js" value="19" />
-          <entry key="json" value="368" />
+          <entry key="json" value="388" />
           <entry key="yml" value="1441" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Dockerfile" value="251" />
-          <entry key="JSON" value="368" />
+          <entry key="JSON" value="388" />
           <entry key="JavaScript" value="19" />
           <entry key="PLAIN_TEXT" value="472" />
           <entry key="YAML" value="1441" />
@@ -69,11 +68,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="495">
               <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Dockerrun.aws.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -135,9 +143,9 @@
         <option value="$PROJECT_DIR$/client/nginx/default.conf" />
         <option value="$PROJECT_DIR$/client/src/App.test.js" />
         <option value="$PROJECT_DIR$/client/Dockerfile" />
-        <option value="$PROJECT_DIR$/Dockerrun.aws.json" />
         <option value="$PROJECT_DIR$/asw_rds" />
         <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/Dockerrun.aws.json" />
       </list>
     </option>
   </component>
@@ -320,13 +328,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerrun.aws.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="9" lean-forward="true" selection-end-line="38" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nginx/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -387,6 +388,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerrun.aws.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
         </state>
       </provider>
     </entry>
