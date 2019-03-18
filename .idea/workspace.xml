@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aab54418-741b-4066-b589-37bb12118325" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Dockerrun.aws.json" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerrun.aws.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +30,7 @@
           <entry key="asw_rds" value="1" />
           <entry key="conf" value="5" />
           <entry key="dev" value="14" />
-          <entry key="js" value="4" />
+          <entry key="js" value="5" />
           <entry key="json" value="6" />
           <entry key="yml" value="7" />
         </counts>
@@ -39,7 +39,7 @@
         <counts>
           <entry key="Dockerfile" value="10" />
           <entry key="JSON" value="6" />
-          <entry key="JavaScript" value="4" />
+          <entry key="JavaScript" value="5" />
           <entry key="PLAIN_TEXT" value="20" />
           <entry key="YAML" value="7" />
         </counts>
@@ -50,7 +50,7 @@
           <entry key="asw_rds" value="52" />
           <entry key="conf" value="342" />
           <entry key="dev" value="78" />
-          <entry key="js" value="19" />
+          <entry key="js" value="53" />
           <entry key="json" value="400" />
           <entry key="yml" value="1441" />
         </counts>
@@ -59,7 +59,7 @@
         <counts>
           <entry key="Dockerfile" value="251" />
           <entry key="JSON" value="400" />
-          <entry key="JavaScript" value="19" />
+          <entry key="JavaScript" value="53" />
           <entry key="PLAIN_TEXT" value="472" />
           <entry key="YAML" value="1441" />
         </counts>
@@ -77,11 +77,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dockerrun.aws.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
               <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -124,6 +136,11 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>wel</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -146,6 +163,7 @@
         <option value="$PROJECT_DIR$/asw_rds" />
         <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/Dockerrun.aws.json" />
+        <option value="$PROJECT_DIR$/client/src/App.js" />
       </list>
     </option>
   </component>
@@ -190,6 +208,12 @@
               <item name="complex" type="b2602c69:ProjectViewProjectNode" />
               <item name="complex" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="complex" type="b2602c69:ProjectViewProjectNode" />
+              <item name="complex" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="complex" type="b2602c69:ProjectViewProjectNode" />
@@ -395,6 +419,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
